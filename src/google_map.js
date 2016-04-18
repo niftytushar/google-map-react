@@ -409,7 +409,7 @@ export default class GoogleMap extends Component {
           div.style.height = K_MAX_HEIGHT;
 
           const panes = this.getPanes();
-          panes.overlayMouseTarget.appendChild(div);
+          panes.floatPane.appendChild(div);
 
           ReactDOM.render((
             <GoogleMapMarkers
